@@ -103,7 +103,7 @@ q6 = myquestion('Почему люди уходят с комьюнити zen?',
 question_list.append(q6)
 q7 = myquestion('Кем создат сервер ру комьюнити zen?','lrey','order','arstan','zombiak')
 question_list.append(q7)
-
+q8 = myquestion('Какую фразу чаще всего используют дотеры против девушек?','хук на кухню','фу женщина','женщина посудомойка','иди мой посуду')
 
 def ask(q: myquestion):
     shuffle(answers)
